@@ -1,0 +1,16 @@
+<mvc:View controllerName="MenuItem.controller.View1" xmlns:l="sap.ui.layout" xmlns:u="sap.ui.unified" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<l:HorizontalLayout>
+						<l:content>
+							<Button id="openMenu" text="Open Menu" press="handlePressOpenMenu"/>
+						</l:content>
+					</l:HorizontalLayout>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
